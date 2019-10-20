@@ -25,5 +25,5 @@ jobs:
     # Finally, deploy the app to App Service (https://github.com/Azure/webapps-deploy)
     - uses: azure/webapps-deploy@v1
       with:
-        app-name: sch1008ptdemo
+        app-name: schpythonignite2019
         publish-profile: ${{ secrets.SCHPYTHONAPP }}
